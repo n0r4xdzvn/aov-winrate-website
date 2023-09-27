@@ -1,0 +1,71 @@
+<style>
+  body {
+    background-image: url('bg.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+  }
+  </style>
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:description" content="Website tính toán tỉ lệ thắng AOV." />
+      <meta property="og:image" content="https://imgtr.ee/images/2023/09/27/1dc11348be7fd0869a208c938e785759.jpeg" />
+      <link rel="stylesheet" type="text/css" href="styles.css" /> 
+      <title>Tính Tỉ Lệ Thắng AOV - Norameoo</title>
+  </head>
+  <table>
+    <tr>
+      <td colspan="2">
+        <h1>AOV Winrate Calculator</h1>
+        <h2>> Tính Tỉ Lệ Thắng AOV ✨</h2>
+      </td>
+    </tr>
+        <tr>
+      <td colspan="2">
+        <span style="color:#900">
+          * Đây là một trang web được việt hóa cho vui. Nếu có bất kỳ sai sót nào, vui lòng thông báo cho chúng tôi theo địa chỉ Facebook : @2maijuem. </br></br>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Tỷ lệ thắng hiện tại
+      </td>
+      <td>
+        <input type="text" id="win_now" autocomplete="off"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Tỷ lệ thắng mong muốn
+      </td>
+      <td>
+        <input type="text" id="win_need" autocomplete="off"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Số trận hiện tại
+      </td>
+      <td>
+        <input type="text" id="n" autocomplete="off"/>
+      </td>
+    </tr>
+  <br><br><br><br>
+    <tr>
+      <td colspan="2" style="text-align:center">
+        <br/>
+        <input type="button" class="button" value="Khởi chạy" onclick="javascript:calculate()">
+          </p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div id="output">&nbsp;</div>
+      </td>
+    </tr>
+  <link rel = “stylesheet” href = “style.css” type = “text / css” />
+  <script src="script.js"></script>
+  </table>
